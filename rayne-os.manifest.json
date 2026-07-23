@@ -1,0 +1,29 @@
+{
+  "name": "Rayne-OS",
+  "base": "Arch Linux",
+  "components": {
+    "ai": {
+      "name": "Milla Rayne AI",
+      "repository": "https://github.com/mrdannyclark82/Milla-Rayne.git",
+      "role": "primary AI runtime"
+    },
+    "bootManager": {
+      "options": [
+        {
+          "name": "Aetherboot",
+          "repository": "https://github.com/mrdannyclark82/Aetherboot.git"
+        },
+        {
+          "name": "Aether-Boot-Manager",
+          "repository": "https://github.com/mrdannyclark82/Aether-Boot-Manager.git"
+        }
+      ],
+      "role": "system boot manager"
+    },
+    "updateSystem": {
+      "name": "SARIi",
+      "repository": "https://github.com/mrdannyclark82/SARIi.git",
+      "role": "system update manager"
+    }
+  }
+}
