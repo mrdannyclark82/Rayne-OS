@@ -1,0 +1,12 @@
+{
+  "name": "rayne-admin",
+  "version": "1.0.0",
+  "description": "Milla Admin Console",
+  "license": "ISC",
+  "author": "danny clark",
+  "type": "commonjs",
+  "main": "staging/Milla_Studio/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
